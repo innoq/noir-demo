@@ -92,7 +92,7 @@
                   (text-field "status" status))])
 
 (defn create-todo-form
-  "create a form to edit a todo item"
+  "form to create a todo item"
   [errors todo]
   (form-to {:class "well"}
            [:post "/todos"]
@@ -100,7 +100,7 @@
            (submit-button {:class "btn btn-primary"} "Add")))
 
 (defn edit-todo-form
-  "creates a form to edit a todo item"
+  "form to edit a todo item"
   [errors todo]
   (form-to {:class "well"}
            [:put (str "/todos/" (:id todo))]
