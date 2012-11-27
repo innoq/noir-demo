@@ -12,9 +12,6 @@ lein run
 
 This will start a webserver on port 8080.
 
-## License
+## Author information and license
 
-Copyright (C) 2012 innoQ Deutschland GmbH
-
-Distributed under the Eclipse Public License, the same as Clojure.
-
+Copyright 2012 innoQ Deutschland GmbH. Published under the Apache 2.0 license.
